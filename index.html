@@ -13,7 +13,7 @@
     />
 
     <title>Frontend Mentor | Expenses chart component</title>
-
+    <link rel="stylesheet" href="style.css" />
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -26,12 +26,26 @@
     </style>
   </head>
   <body>
-    <div class="balanceComponet">
-      <div class="balance"></div>
-      <div class="spand"></div>
+    <div class="balanceComponet"> </div>
+    <div class="balance"
+      ><div id="balanceShow"><span>My balance</span> <b>$921.48</b></div>
+      <img src="/images/logo.svg" alt="" />
     </div>
-    My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun Total
-    this month $478.33 +2.4% from last month
+    <div class="spand">
+      <h1>Spending - Last 7 days</h1>
+      <div class="incomeShow">
+        <ul class="days">
+          <li class="day">mon<div class="shape"></div></li>
+          <li class="day">tue<div class="shape"></div></li>
+          <li class="day">wed<div class="shape"></div></li>
+          <li class="day">thu<div class="shape"></div></li>
+          <li class="day">fri<div class="shape"></div></li>
+          <li class="day">sat<div class="shape"></div></li>
+          <li class="day">sun<div class="shape"></div></li>
+        </ul>
+      </div>
+      Total this month $478.33 +2.4% from last month
+    </div>
 
     <div class="attribution">
       Challenge by

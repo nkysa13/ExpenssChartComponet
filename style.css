@@ -1,0 +1,46 @@
+body {
+  --Soft-red: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+.balance {
+  color: white;
+  background-color: var(--Soft-red);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+}
+#balanceShow {
+  display: inherit;
+  flex-direction: column;
+  height: 4rem;
+  justify-content: space-between;
+}
+#balanceShow span {
+  font-size: 16px;
+}
+#balanceShow b {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+
+  list-style-type: none;
+  height: fit-content;
+}
+.days .day {
+  padding: 0.5rem;
+}
+.shape {
+  width: 3rem;
+  height: 100px;
+  background-color: black;
+}
