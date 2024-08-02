@@ -38,9 +38,12 @@ body {
 }
 .days .day {
   padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .shape {
-  width: 3rem;
+  width: 2rem;
   height: 100px;
-  background-color: black;
+  background-color: ;
 }
