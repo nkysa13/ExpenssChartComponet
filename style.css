@@ -32,9 +32,8 @@ body {
 .days {
   display: flex;
   flex-direction: row;
-
   list-style-type: none;
-  height: fit-content;
+  height: 10rem;
 }
 .days .day {
   padding: 0.5rem;
@@ -42,8 +41,10 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .shape {
   width: 2rem;
-  height: 100px;
-  background-color: ;
+  height: 100%;
+  background-color: orangered;
+  border-radius: 9px 9px 0px 0px ;
 }
