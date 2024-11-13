@@ -34,12 +34,15 @@ body {
   flex-direction: row;
   list-style-type: none;
   height: 10rem;
+  
 }
 .days .day {
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-end;
+
+  align-items: center;  
 }
 
 .shape {
@@ -47,4 +50,10 @@ body {
   height: 100%;
   background-color: orangered;
   border-radius: 9px 9px 0px 0px ;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
 }
